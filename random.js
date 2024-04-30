@@ -1,2 +1,2 @@
-const updated = numbers.filter(element => element > 6);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const stringReverse = str => str.split("").reverse().join("");
+const uniqueArray = arr => [...new Set(arr)];
