@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const uniqueArray = arr => [...new Set(arr)];
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const reversedString = str => str.split('').reverse().join('');
