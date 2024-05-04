@@ -1,2 +1,3 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const channelName = getChannelName(channel);
+const arrayContains = (arr, element) => arr.includes(element);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
