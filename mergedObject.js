@@ -1,2 +1,1 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const lastElement = arr => arr[arr.length - 1];
+const currentDate = () => new Date().toLocaleDateString('en-US');
