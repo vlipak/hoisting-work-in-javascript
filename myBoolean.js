@@ -1,3 +1,3 @@
-const toggleBool = () => (bool = !bool);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-console.log(false === '0');
+var c = new Counter(); c.add(); c.add(); c.add();
+var arr2 = arr1.reverse();
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
