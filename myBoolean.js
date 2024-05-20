@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const arrayContains = (arr, element) => arr.includes(element);
+var DELIM_SIZE = 4;
+const result = await makeHttpRequest(url);
