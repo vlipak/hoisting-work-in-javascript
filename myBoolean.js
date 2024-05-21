@@ -1,3 +1,2 @@
-const arrayContains = (arr, element) => arr.includes(element);
-var DELIM_SIZE = 4;
-const result = await makeHttpRequest(url);
+console.log(false == '0');
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
