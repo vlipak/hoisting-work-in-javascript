@@ -1,2 +1,2 @@
-console.log(false == '0');
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const isEven = (num) => num % 2 === 0;
