@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const updated = numbers.filter(element => element > 6);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const allResults = await Promise.all(items.map(async (item) => {}));
