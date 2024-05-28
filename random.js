@@ -1,2 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const results = await Promise.all(resultingPromises);
+const isEmptyArray = arr => !arr.length;
