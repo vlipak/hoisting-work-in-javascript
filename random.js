@@ -1,2 +1,3 @@
-const results = await Promise.all(resultingPromises);
-const isEmptyArray = arr => !arr.length;
+const result = await makeHttpRequest(url);
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log("1 || 2 = "+(1 || 2));
