@@ -1,1 +1,2 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const executableName = getExecutableName(channel, appName);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
