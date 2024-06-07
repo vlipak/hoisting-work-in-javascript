@@ -1,2 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const reversedString = str => str.split('').reverse().join('');
+const randomString = () => Math.random().toString(36).slice(2);
+console.log(+"1" +  "1" + "2");
