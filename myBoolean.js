@@ -1,3 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
-console.log("1 || 2 = "+(1 || 2));
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+var pattern = {};
