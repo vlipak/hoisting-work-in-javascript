@@ -1,3 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log(1 +  +"2" + "2");
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const lastElement = arr => arr[arr.length - 1];
+const appName = getAppName(channel);
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
