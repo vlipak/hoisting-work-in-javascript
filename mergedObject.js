@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-function myAPITS(someString: string, someNum: number) { ... };
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const randomBoolean = () => Math.random() >= 0.5;
+const minNumber = arr => Math.min(...arr);
+const allResults = await Promise.all(items.map(async (item) => {}));
