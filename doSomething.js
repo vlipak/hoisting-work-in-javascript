@@ -1,2 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const toggleBool = () => (bool = !bool);
+console.log(+"1" +  "1" + "2");
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
