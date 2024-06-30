@@ -1,3 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
 const minNumber = arr => Math.min(...arr);
-const allResults = await Promise.all(items.map(async (item) => {}));
+const resultingPromises = urls.map((url) => makHttpRequest(url));
