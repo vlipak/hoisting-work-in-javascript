@@ -1,3 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-var DELIM_SIZE = 4;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const merge = [...new Set([...a, ...b])];
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
