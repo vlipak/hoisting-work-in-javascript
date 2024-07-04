@@ -1,3 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const uniqueArray = arr => [...new Set(arr)];
+const merge = [...new Set(a.concat(b))];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
