@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
