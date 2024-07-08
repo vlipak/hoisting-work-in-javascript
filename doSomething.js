@@ -1,2 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const merge = (a, b) => [...a, ...b];
