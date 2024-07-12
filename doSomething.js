@@ -1,3 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const merge = (a, b) => [...a, ...b];
+console.log(1 +  -"1" + "2");
+const result = await makeHttpRequest(url);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
