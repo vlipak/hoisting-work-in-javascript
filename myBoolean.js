@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-const reversedString = str => str.split('').reverse().join('');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
