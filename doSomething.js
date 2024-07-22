@@ -1,1 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const uniqueArray = arr => [...new Set(arr)];
+console.log(1 +  +"2" + "2");
