@@ -1,3 +1,3 @@
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const uniqueArray = arr => [...new Set(arr)];
-console.log(1 +  +"2" + "2");
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+console.log(typeof typeof 1);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
