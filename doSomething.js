@@ -1,1 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
