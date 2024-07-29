@@ -1,3 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+var DELIM_SIZE = 4;
+const value = ( 5 < 7 ) ? "True" : "False" ;
