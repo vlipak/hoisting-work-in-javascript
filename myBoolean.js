@@ -1,3 +1,3 @@
-const channel = getChannel(computedAppVersion);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const repositoryRootPath = path.resolve(__dirname, '..');
+const lastElement = arr => arr[arr.length - 1];
+const getRandomBoolean = () => Math.random() >= 0.5;
