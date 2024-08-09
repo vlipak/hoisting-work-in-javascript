@@ -1,3 +1,3 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const lastElement = arr => arr[arr.length - 1];
-const getRandomBoolean = () => Math.random() >= 0.5;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const fullName = name || 'buddy';
+const isWeekday = (date) => date.getDay() % 6 !== 0;
